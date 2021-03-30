@@ -1,1 +1,0 @@
-# simplyprogramming.github.io
