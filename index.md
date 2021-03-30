@@ -38,4 +38,4 @@ Of course, demonstrating what headings look like messes up the structure of the 
 
 I don't recommend using more than three or four levels of headings here.
 
-![README](README.md)
+![Screenshot](Screenshot (118).png)
