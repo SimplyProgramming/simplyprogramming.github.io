@@ -34,6 +34,8 @@ There are six levels of headings. They correspond with the six levels of HTML he
 
 ### They can even contain `inline code`
 
+![README](README.md)
+
 Of course, demonstrating what headings look like messes up the structure of the page.
 
 I don't recommend using more than three or four levels of headings here.
