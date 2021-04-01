@@ -4,13 +4,18 @@ body {
   background-color: #fcfcfc;
 }
 
-#tab-container {
+#tabs-container {
+  display: flex;
   margin: 0.5em 0.5em 0 0.5em;
   font-size: 1.5em;
   border-bottom: 1px solid #e1e1e1;
 }
 
 .tab {
+  flex: 1;
+}
+
+.tab-value {
   padding: 2px;
   cursor: pointer;
 }
