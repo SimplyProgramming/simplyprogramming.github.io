@@ -1,3 +1,16 @@
 body {
   margin: 0;
+  font-size: 18px;
+  background-color: #fcfcfc;
+}
+
+#tab-container {
+  margin: 0.5em 0.5em 0 0.5em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.tab {
+  padding: 2px;
+  cursor: pointer;
 }
