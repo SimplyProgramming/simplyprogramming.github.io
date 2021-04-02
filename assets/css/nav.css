@@ -70,6 +70,10 @@
   display: none !important;
 }
 
+#nav-menu-icon:before {
+  content: "\2630";
+}
+
 @media screen and (max-width: 800px) {
   #menu {
     display: inline-block !important;
