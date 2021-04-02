@@ -53,7 +53,7 @@ const createNav = (contents) => {
         let subListItemLinkNode = createElement("a", subKey);
         subListItemLinkNode.href = subs[subKey];
         
-        subListItemNode.appendChild(subListItemLinkNode));
+        subListItemNode.appendChild(subListItemLinkNode);
         subListNode.appendChild(subListItemNode);
       }
       
