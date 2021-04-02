@@ -31,5 +31,14 @@
         </li>
       </ul>
     </div>
+    <p id="live-display"></p>
+    <script>
+      window.onresize = displayWindowSize;
+      window.onload = displayWindowSize;
+      
+      function displayWindowSize() {
+        document.getElementById("live-display").innerHTML = `${window.innerWidth}x${window.innerHeight}`;
+      }
+    </script>
   </body>
 </html>
