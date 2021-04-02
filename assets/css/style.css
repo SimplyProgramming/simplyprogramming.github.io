@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-size: 18px;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 
 #nav {
@@ -14,11 +14,14 @@ body {
 }
 
 #menu > li {
-  display: inline;
+  display: inline-block;
 }
 
 #menu > li > a {
-  padding: 0 12px;
+  display: block;
+  padding: 16px 12px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*
