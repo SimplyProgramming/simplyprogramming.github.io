@@ -5,7 +5,7 @@ body {
 }
 
 #nav {
-  background-color: #4d4d4d;
+  background-color: #505050;
 }
 
 #menu {
@@ -32,23 +32,11 @@ body {
   text-decoration: none;
 }
 
-/*
-#tab-container {
-  display: flex;
-  margin: 0.5em 0.5em 0 0.5em;
-  font-size: 1.5em;
-  text-align: center;
-  width: fit-content;
-  min-width: 200px;
-  border-bottom: 1px solid #e1e1e1;
+#menu > li > ul {
+  display: none;
+  position: absolute;
+  margin-top: 1px;
+  padding: 0;
+  list-style: none;
+  background-color: #505050;
 }
-
-.tab {
-  flex: 1;
-}
-
-.tab-value {
-  padding: 2px;
-  cursor: pointer;
-}
-*/
