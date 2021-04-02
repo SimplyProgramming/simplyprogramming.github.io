@@ -20,6 +20,10 @@ body {
   font-size: 18px;
 }
 
+#menu > li:not(:last-child) {
+  border-right: 1px solid #3a3a3aa0;
+}
+
 #menu > li:hover {
   background-color: #3a3a3a;
 }
@@ -64,5 +68,5 @@ body {
 }
 
 #menu > li > ul > li:not(:last-child) {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3aa0;
 }
