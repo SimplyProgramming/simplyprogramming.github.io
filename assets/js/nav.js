@@ -6,6 +6,7 @@ const createElement = (tag, arg1) => {
   } else if (typeof arg1 === "object") {
     if (arg1.text) node.appendChild(document.createTextNode(arg1.text));
     if (arg1.id) node.id = arg1.id;
+    if (arg1.class) node.classList = arg1.class;
     if (arg1.style) for (let key of Object.keys(arg1.style)) node.style[key] = arg1.style[key];
   }
   
@@ -24,13 +25,13 @@ const createNav = (contents) => {
   });
   
   let menuLinkNode = createElement("a");
-  menuLinkNode.appendChild(createElement("span", "&#9776;"));
   menuLinkNode.appendChild(createElement("span", {
-    "text": "Menu",
+    "id": "nav-menu-icon",
     "style": {
-      "margin-left": "5px"
+      "margin-right": "5px"
     }
   }));
+  menuLinkNode.appendChild(createElement("span", "Menu"));
   
   menuNode.appendChild(menuLinkNode);
   navLeftNode.appendChild(menuNode);
