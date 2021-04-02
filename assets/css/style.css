@@ -50,6 +50,11 @@ body {
   background-color: #525252;
 }
 
+#menu > li > ul > li {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 #menu > li > ul > li > a {
   padding: 8px 12px;
 }
