@@ -21,7 +21,7 @@ body {
 }
 
 #menu > li:hover {
-  background-color: #000000;
+  background-color: #3a3a3a;
 }
 
 #menu > li:hover > ul {
@@ -52,6 +52,10 @@ body {
 
 #menu > li > ul > li > a {
   padding: 8px 12px;
+}
+
+#menu > li > ul > li:hover {
+  background-color: #3a3a3a;
 }
 
 /*
