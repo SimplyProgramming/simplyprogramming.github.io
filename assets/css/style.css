@@ -23,6 +23,10 @@ body {
   background-color: #000000;
 }
 
+#menu > li:hover > ul {
+  display: block;
+}
+
 #menu > li > a {
   display: block;
   padding: 16px 12px;
