@@ -15,7 +15,7 @@
   line-height: 20px;
 }
 
-#nav-left > li:not(:last-child) {
+#nav-left > li:not(:last-child):not(#menu) {
   border-right: 1px solid #3a3a3aa0;
 }
 
