@@ -10,11 +10,15 @@ body {
 
 #menu {
   margin: 0;
-  padding: 0;
+  padding: 0 12px;
 }
 
 #menu > li {
   display: inline-block;
+}
+
+#menu > li:hover {
+  background-color: #000000;
 }
 
 #menu > li > a {
