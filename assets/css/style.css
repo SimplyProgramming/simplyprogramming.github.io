@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0 12px;
   font-size: 0;
+  box-shadow: 0 2px 2px #16161640;
 }
 
 #menu > li {
@@ -44,6 +45,8 @@ body {
   list-style: none;
   border-top: 1px solid #16161640;
   box-shadow: 2px 2px 2px #16161640;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: #525252;
 }
 
