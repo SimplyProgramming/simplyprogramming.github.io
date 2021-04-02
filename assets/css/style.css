@@ -41,7 +41,7 @@ body {
   display: none;
   position: absolute;
   width: 150px;
-  padding: 8px 12px;
+  padding: 0;
   list-style: none;
   border-top: 1px solid #16161640;
   box-shadow: 2px 2px 2px #16161640;
@@ -51,5 +51,7 @@ body {
 }
 
 #menu > li > ul > li > a {
+  display: block;
+  padding: 8px 12px;
   color: #ffffff;
 }
