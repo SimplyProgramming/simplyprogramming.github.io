@@ -57,11 +57,3 @@ body {
 #menu > li > ul > li:hover {
   background-color: #3a3a3a;
 }
-
-/*
-#menu > li > ul > li > a {
-  display: block;
-  padding: 8px 12px;
-  color: #ffffff;
-}
-*/
