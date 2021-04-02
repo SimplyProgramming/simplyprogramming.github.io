@@ -5,7 +5,7 @@ body {
 }
 
 #nav {
-  background-color: #505050;
+  background-color: #4c4c4c;
 }
 
 #menu {
@@ -39,8 +39,14 @@ body {
 #menu > li > ul {
   display: none;
   position: absolute;
-  margin-top: 1px;
-  padding: 0;
+  width: 150px;
+  padding: 8px 12px;
   list-style: none;
-  background-color: #505050;
+  border-top: 1px solid #16161640;
+  box-shadow: 2px 2px 2px #16161640;
+  background-color: #525252;
+}
+
+#menu > li > ul > li > a {
+  color: #ffffff;
 }
