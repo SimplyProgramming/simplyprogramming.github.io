@@ -46,18 +46,12 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #525252;
-  counter-reset: index;
 }
 
 #nav-left > li > ul > li {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   position: relative;
-}
-
-#nav-left > li > ul > li:before {
-  counter-increment: index 1;
-  content: "Index: " counter(index);
 }
 
 #nav-left > li > ul > li > a {
