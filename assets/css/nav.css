@@ -52,6 +52,7 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   position: relative;
+  background-color: #525252;
 }
 
 #nav-left > li > ul > li > a {
@@ -68,6 +69,11 @@
 
 #nav-left > li > ul > li:not(:last-child) {
   border-bottom: 1px solid #3a3a3aa0;
+}
+
+#nav-left > li > ul > li:not(:first-child) {
+  margin-top: -5px;
+  padding-top: 5px;
 }
 
 #menu {
