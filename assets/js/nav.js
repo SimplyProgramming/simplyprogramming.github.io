@@ -52,7 +52,7 @@ const createNav = (contents) => {
       let counter = 0;
       for (let subKey of Object.keys(subs)) {
         let subListItemNode = createElement("li");
-        subListItemNode.style["z-index"] = (999 - 50 * counter++).toString();
+        subListItemNode.style["z-index"] = (1000 - ++counter).toString();
         
         let subListItemLinkNode = createElement("a", subKey);
         subListItemLinkNode.href = subs[subKey];
