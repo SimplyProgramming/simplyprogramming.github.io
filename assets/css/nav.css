@@ -42,7 +42,6 @@
   width: 150px;
   padding: 0;
   list-style: none;
-  border-top: 1px solid #16161640;
   box-shadow: 0 1px 2px #000000a0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -60,6 +59,10 @@
 
 #nav-left > li > ul > li:hover {
   background-color: #3a3a3a;
+}
+
+#nav-left > li > ul > li:first-child {
+  border-top: 1px solid #16161640;
 }
 
 #nav-left > li > ul > li:not(:last-child) {
